@@ -3148,6 +3148,9 @@
 #() iFEpuvvppp -> iFEpuppp
 wrappedalure:
 wrappedalut:
+wrappedandroidshmem:
+wrappedandroidspawn:
+wrappedandroidsupport:
 wrappedanl:
 wrappedatk:
 - vFp:
@@ -4091,6 +4094,7 @@ wrappedgtkx112:
   - gtk_toolbar_prepend_element
 - pFpipppppppi:
   - gtk_toolbar_insert_element
+wrappediconv:
 wrappedicui18n64:
 wrappedicui18n66:
 wrappedicui18n67:
@@ -4408,9 +4412,6 @@ wrappedlibc:
 - iFpLiLpV:
   - __snprintf_chk
   - __swprintf_chk
-- iFpppppp:
-  - posix_spawn
-  - posix_spawnp
 - pFpLiiil:
   - mmap
   - mmap64
@@ -5650,6 +5651,7 @@ wrappedtcmallocminimal:
 - pFpLiiil:
   - mmap
   - mmap64
+wrappedtermuxexec:
 wrappedudev0:
 wrappedudev1:
 - vFpp:

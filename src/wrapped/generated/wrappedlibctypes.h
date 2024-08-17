@@ -93,7 +93,6 @@ typedef void* (*pFppLLp_t)(void*, void*, uintptr_t, uintptr_t, void*);
 typedef void* (*pFpppLp_t)(void*, void*, void*, uintptr_t, void*);
 typedef int32_t (*iFpLiLpp_t)(void*, uintptr_t, int32_t, uintptr_t, void*, void*);
 typedef int32_t (*iFpLiLpV_t)(void*, uintptr_t, int32_t, uintptr_t, void*, ...);
-typedef int32_t (*iFpppppp_t)(void*, void*, void*, void*, void*, void*);
 typedef void* (*pFpLiiil_t)(void*, uintptr_t, int32_t, int32_t, int32_t, intptr_t);
 typedef int32_t (*iFpippppp_t)(void*, int32_t, void*, void*, void*, void*, void*);
 typedef int32_t (*iFppipppp_t)(void*, void*, int32_t, void*, void*, void*, void*);
@@ -292,8 +291,6 @@ typedef int32_t (*iFppipppp_t)(void*, void*, int32_t, void*, void*, void*, void*
 	GO(__vsnprintf_chk, iFpLiLpp_t) \
 	GO(__snprintf_chk, iFpLiLpV_t) \
 	GO(__swprintf_chk, iFpLiLpV_t) \
-	GO(posix_spawn, iFpppppp_t) \
-	GO(posix_spawnp, iFpppppp_t) \
 	GO(mmap, pFpLiiil_t) \
 	GO(mmap64, pFpLiiil_t) \
 	GO(__libc_start_main, iFpippppp_t) \
